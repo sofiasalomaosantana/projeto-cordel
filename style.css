@@ -53,9 +53,11 @@ a:hover{
     background-size:cover;
     background-attachment:fixed;
     background-image: url(imagens/background001.jpg);
-    padding:40px;
     box-shadow: inset 6px 5px 13px #0000009e;
-    
+    line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
     
 
 }
@@ -94,9 +96,11 @@ a:hover{
     background-position: left left;
     background-size:cover;
     background-attachment:fixed;
-    padding:20px;
     box-shadow: inset 6px 5px 13px #0000009e;
-    
+    line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
  
 }
 #p4>p{
