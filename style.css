@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 header{
     text-align: center;
     background-color: black;
@@ -13,6 +17,7 @@ header{
     padding:40px;
 }
 header>h1{
+    font-variant: small-caps;
     margin-bottom: 10px;
     font-family: "Passion One", sans-serif;
     font-size: 3em;
@@ -35,15 +40,16 @@ a:hover{
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
-    padding:20px;
     box-shadow: 3px 3px 3px black;
-    line-height: 40px;
-   
+    line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
 
 }
 #p2{
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position:center right ;
     background-size:cover;
     background-attachment:fixed;
     background-image: url(imagens/background001.jpg);
@@ -59,9 +65,13 @@ a:hover{
     font-weight: 300;
     font-style: normal;
     background-color: rgba(0, 5, 2, 0.404);
+    display:inline-block;
     width: 200px;
-    padding:20px;
-    line-height: 40px;
+    line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
+
     
 }
 #p3{
@@ -70,7 +80,11 @@ a:hover{
     font-weight: 400;
     font-style: normal;
     padding:20px;
-    line-height: 40px;
+     line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
+
 
 }
 #p4{
@@ -93,8 +107,11 @@ a:hover{
     font-weight: 400;
     font-style: normal;
     padding:20px;
-    line-height: 40px;
-    
+     line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
+
 }
 #p5{
     background-color: white;
@@ -102,7 +119,10 @@ a:hover{
     font-weight: 400;
     font-style: normal;
     padding:20px;
-    line-height: 40px;
+     line-height: 2em;
+    padding-top: 10vh;
+	padding-bottom: 10vh;
+   	padding-left: 30px;
 }
 
 footer{
